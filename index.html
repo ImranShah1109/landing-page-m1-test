@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Landing Page</title>
+</head>
+<body>
+    <div class="head">
+        <header>
+            <div id="logo"><a href="/">Business Name</a></div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#aboutUs">About Us</a></li>
+                    <li><a href="#ourServices">Our Services</a></li>
+                    <li><a href="#contactUs">Contact Us</a></li>
+                </ul>
+            </nav>
+            <div id="hamburger-icon" onclick="toggeleMobileMenu(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+                <ul class="mobile-menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#aboutUs">About Us</a></li>
+                    <li><a href="#OurServices">Our Services</a></li>
+                    <li><a href="#contactUs">Contact Us</a></li>
+                </ul>
+            </div>
+        </header>
+    </div>
+
+    <div class="first" id="home">
+        <div class="left">
+            <div>
+                BUSINESS
+            </div>
+            <div>
+                LANDING
+            </div>
+            <div>
+                PAGE
+            </div>
+        </div>
+        <div class="right">
+            <img src="/img/pngegg 1.png" alt="laptop-img">
+        </div>
+    </div>
+
+    <div class="about" id="aboutUs">
+        <section id="AboutUs">
+            <div class="AboutUs-Container" id="AboutUsMediaQueries">
+                <div class="AboutUsImage">
+                    <img src="img/pexels-hidden.png" alt="aboutUsImage" id="AboutUsImage">
+                </div>
+                <div class="AboutUsDes">
+                    <h1 id="AboutUsHeading">ABOUT US</h1>
+                    <p id="AboutUsDes">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam accusamus
+                        incidunt facere amet sequi voluptatum consequatur, dolore assumenda nobis ad repellat corporis
+                        quisquam ea distinctio accusantium odio! Aperiam quasi ad voluptate. Delectus libero consequatur
+                        nobis fuga quia, molestias nisi numquam magnam odit perferendis ducimus tenetur deserunt minima
+                        quaerat eveniet commodi et provident fugiat qui accusamus impedit corporis fugit quos! Iusto
+                        commodi debitis odio accusamus, aut sed nisi laboriosam molestias unde alias a magni explicabo
+                        sapiente exercitationem animi similique maiores doloremque, deleniti, optio minima? Iste ipsum
+                        sint porro eligendi quia voluptatem facere aliquid? A error minus consectetur. Sunt quaerat
+                        numquam quidem impedit necessitatibus rerum deserunt dolores? Aut laborum, autem accusamus porro
+                        velit facilis esse ducimus corrupti repudiandae laboriosam non eligendi soluta dolor, quasi
+                        magni quas necessitatibus cum a neque nostrum cumque assumenda aliquam. </p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <section id="OurServices">
+        <div id="four"></div>
+        <h1 id="OurServicesHeading">OUR SERVICES</h1>
+        <div class="OurServices-Container">
+            <div class="card">
+                <h3 class="card-heading">Service 1<h3>
+                        <p id="card-des">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Lorem Ipsum
+                            has
+                            been the industry's standard dummy text ever since the 1500s, when an unknown printer
+                            took a
+                            galley of type and scrambled it to make a type specimen book.</p>
+            </div>
+            <div class="card">
+                <h3 class="card-heading">Service 2<h3>
+                        <p id="card-des">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Lorem Ipsum
+                            has
+                            been the industry's standard dummy text ever since the 1500s, when an unknown printer
+                            took a
+                            galley of type and scrambled it to make a type specimen book.</p>
+            </div>
+            <div class="card">
+                <h3 class="card-heading">Service 3<h3>
+                        <p id="card-des">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Lorem Ipsum
+                            has
+                            been the industry's standard dummy text ever since the 1500s, when an unknown printer
+                            took a
+                            galley of type and scrambled it to make a type specimen book.</p>
+            </div>
+            <div class="card">
+                <h3 class="card-heading">Service 4<h3>
+                        <p id="card-des">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Lorem Ipsum
+                            has
+                            been the industry's standard dummy text ever since the 1500s, when an unknown printer
+                            took a
+                            galley of type and scrambled it to make a type specimen book.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="contact" id="contactUs">
+        <div class="footHead">
+            CONTACT US
+        </div>
+        <div class="footForm">
+            <form class="form">
+                <div class="form-item">
+                    <input type="text" name="fName" id="fName"placeholder="First Name" value=>
+                </div>
+                <div class="form-item">
+                    <input type="text" name="lName" id="lName" placeholder="Last Name" value=>
+                </div>
+                <div class="form-item">
+                    <input type="email" name="emailAdd" id="emailAdd" placeholder="Email Address" value=>
+                </div>
+                <div class="form-item">
+                    <input type="text" name="reason" id="reason" placeholder="Reason for Contacting" value=>
+                </div>
+                <div class="form-btn">
+                    <input type="button"  value="Submit" onclick="submitForm()">
+                </div>
+            </form>
+        </div>
+    </footer>
+
+    <script src="js/index.js"></script>
+</body>
+</html>
